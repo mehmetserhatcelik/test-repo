@@ -30,11 +30,10 @@ def main():
     print("\n" + "=" * 30)
     print("Testing division by zero (this should be handled properly):")
     
-    try:
-        result = calculate('/', 10, 0)
-        print(f"10 / 0 = {result}")
-    except Exception as e:
-        print(f"10 / 0 = Error: {e}")
+    
+    result = calculate('/', 10, 0)
+    print(f"10 / 0 = {result}")
+
 
 if __name__ == "__main__":
     main() 
